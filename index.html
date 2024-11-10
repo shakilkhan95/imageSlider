@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fontAwesome Link -->
+    <script src="https://kit.fontawesome.com/af209e47cf.js" crossorigin="anonymous"></script>
+
+    <!-- GoogleFonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- swiperjs link -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Image Slider</title>
+</head>
+<body>
+    <div class="container swiper">
+        <div class="card-wrapper">
+            <ul class="card-list swiper-wrapper">
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link">
+                        <img src="images/designer.jpg" alt="Card Image" class="card-image">
+                        <p class="badge designer">Designer</p>
+                        <h2 class="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
+                        <button class="card-button"><i class="fa-solid fa-arrow-right"></i></button>
+                    </a>
+                </li>
+
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link">
+                        <img src="images/developer.jpg" alt="Card Image" class="card-image">
+                        <p class="badge developer">Developer</p>
+                        <h2 class="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
+                        <button class="card-button"><i class="fa-solid fa-arrow-right"></i></button>
+                    </a>
+                </li>
+
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link">
+                        <img src="images/marketer.jpg" alt="Card Image" class="card-image">
+                        <p class="badge marketer">Marketer</p>
+                        <h2 class="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
+                        <button class="card-button"><i class="fa-solid fa-arrow-right"></i></button>
+                    </a>
+                </li>
+
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link">
+                        <img src="images/gamer.jpg" alt="Card Image" class="card-image">
+                        <p class="badge gamer">Gamer</p>
+                        <h2 class="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
+                        <button class="card-button"><i class="fa-solid fa-arrow-right"></i></button>
+                    </a>
+                </li>
+
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-link">
+                        <img src="images/editor.jpg" alt="Card Image" class="card-image">
+                        <p class="badge editor">Editor</p>
+                        <h2 class="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
+                        <button class="card-button"><i class="fa-solid fa-arrow-right"></i></button>
+                    </a>
+                </li>
+            </ul>
+
+             <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+        </div>
+    </div>
+
+    <!-- swiperjs script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom script -->
+     <script type="module" src="script.js"></script>
+</body>
+</html>
